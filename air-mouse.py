@@ -8,8 +8,8 @@ app=wx.App(False)
 (sx,sy)=wx.GetDisplaySize()
 (camx,camy)=(320,240)
 
-lowerBound=np.array([33,80,40])
-upperBound=np.array([102,255,255])
+lowerBound=np.array([40, 40, 40])
+upperBound=np.array([70, 255, 255])
 
 cam= cv2.VideoCapture(0)
 
